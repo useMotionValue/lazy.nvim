@@ -6,7 +6,22 @@ return {
     keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
     config = true,
     opts = {
-      position = "top",
+      position = "right",
+      keymaps = {
+        -- These keymaps can be a string or a table for multiple keys
+        close = { "<Esc>", "q" },
+        goto_location = "o",
+        focus_location = "<Cr>",
+        hover_symbol = "<C-space>",
+        toggle_preview = "K",
+        rename_symbol = "r",
+        code_actions = "a",
+        fold = "h",
+        unfold = "l",
+        fold_all = "W",
+        unfold_all = "E",
+        fold_reset = "R",
+      },
       symbols = {
         File = { icon = "", hl = "@text.uri" },
         Module = { icon = "", hl = "@namespace" },
