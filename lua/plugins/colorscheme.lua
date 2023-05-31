@@ -1,5 +1,8 @@
 return {
   { "ellisonleao/gruvbox.nvim", lazy = true },
+  { "Mofiqul/dracula.nvim", lazy = true },
+  { "rebelot/kanagawa.nvim", lazy = true }, -- kanagawa kanagawa-wave kanagawa-dragon kanagawa-lotus
+  { "rose-pine/neovim", lazy = true }, -- rose-pine rose-pine-moon rose-pine-dawn
   {
     "folke/tokyonight.nvim",
     lazy = true,
@@ -22,7 +25,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark_vivid",
+      colorscheme = "rose-pine-moon", -- onedark_vivid
     },
   },
 }
