@@ -15,3 +15,6 @@ keymap("n", "<leader>w-", "<C-W>s", { desc = "Split window below" })
 keymap("n", "<leader>w=", "<C-W>v", { desc = "Split window right" })
 keymap("n", "<leader>-", "<C-W>s", { desc = "Split window below" })
 keymap("n", "<leader>=", "<C-W>v", { desc = "Split window right" })
+
+-- leader
+keymap("n", "<leader>t", "<cmd>Translate<cr>", { desc = "Translate" })
