@@ -18,8 +18,13 @@ return {
   {
     -- https://github.com/olimorris/onedarkpro.nvim
     "olimorris/onedarkpro.nvim",
-    priority = 1000, -- Ensure it loads first
+    priority = 1001, -- Ensure it loads first
     -- onedark onelight onedark_vivid onedark_dark
+    opts = {
+      options = {
+        transparency = true,
+      },
+    },
   },
   { "drewtempelmeyer/palenight.vim", lazy = true },
   {
