@@ -3,6 +3,8 @@ return {
   { "Mofiqul/dracula.nvim", lazy = true },
   { "rebelot/kanagawa.nvim", lazy = true }, -- kanagawa kanagawa-wave kanagawa-dragon kanagawa-lotus
   { "rose-pine/neovim", lazy = true }, -- rose-pine rose-pine-moon rose-pine-dawn
+  { "glepnir/zephyr-nvim", lazy = true },
+  { "marko-cerovac/material.nvim", lazy = true }, -- material material-oceanic material-deep-ocean material-palenight material-lighter material-darker
   {
     "folke/tokyonight.nvim",
     lazy = true,
@@ -30,7 +32,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "dracula", -- onedark_vivid
+      colorscheme = "zephyr", -- onedark_vivid
     },
   },
 }
