@@ -8,6 +8,8 @@ keymap("i", "jj", "<Esc>")
 keymap("i", "jk", "<Esc>:w<Enter>")
 keymap("n", "<C-a>", "gg<S-v>G")
 keymap("n", "dd", '"_dd') -- black hole register
+keymap("n", "cw", '"_cw')
+keymap("n", "cwi", '"_cwi')
 keymap("x", "d", '"_d')
 
 -- windows
