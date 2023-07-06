@@ -7,6 +7,8 @@ local keymap = vim.keymap.set
 keymap("i", "jj", "<Esc>")
 keymap("i", "jk", "<Esc>:w<Enter>")
 keymap("n", "<C-a>", "gg<S-v>G")
+keymap("n", "dd", '"_dd') -- black hole register
+keymap("x", "d", '"_d')
 
 -- windows
 keymap("n", "<leader>ww", "<C-W>p", { desc = "Other window" })
