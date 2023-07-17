@@ -81,7 +81,7 @@ return {
                 offset = offset + 3600
               end
 
-              local beijing_offset = 9 * 3600
+              local beijing_offset = 8 * 3600
               local beijing_time = localtime + beijing_offset - offset
               local beijing_str = os.date("%Y-%m-%d %H:%M", beijing_time)
 

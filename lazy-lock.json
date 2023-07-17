@@ -1,9 +1,11 @@
 {
   "LazyVim": { "branch": "main", "commit": "986a6374f4fd3f9b176105f4a3a4392b24e1953a" },
+  "LeetBuddy.nvim": { "branch": "main", "commit": "d73fa0a0530e5b900f9c46b6c35514a8d91d9aae" },
   "LuaSnip": { "branch": "master", "commit": "a13af80734eb28f744de6c875330c9d3c24b5f3b" },
   "SchemaStore.nvim": { "branch": "main", "commit": "f323ed8e03d2484a1abdaa267b839315f4b34c80" },
   "bufferline.nvim": { "branch": "main", "commit": "02d795081e6a24ec1fd506c513491543793d0780" },
   "catppuccin": { "branch": "main", "commit": "9aaf5b4ce5cd256695d8bbddb65869d19919abde" },
+  "cellular-automaton.nvim": { "branch": "main", "commit": "679943b8e1e5ef79aaeeaf4b00782c52eb4e928f" },
   "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
   "cmp-emoji": { "branch": "main", "commit": "19075c36d5820253d32e2478b6aaf3734aeaafa0" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "0e6b2ed705ddcff9738ec4ea838141654f12eeef" },

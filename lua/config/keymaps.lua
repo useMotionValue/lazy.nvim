@@ -8,6 +8,7 @@ keymap("i", "jj", "<Esc>")
 keymap("i", "jk", "<Esc>:w<Enter>")
 keymap("n", "<C-a>", "gg<S-v>G")
 keymap("n", "dd", '"_dd') -- black hole register
+keymap("n", "db", '"_db')
 keymap("n", "cw", '"_cw')
 keymap("n", "cwi", '"_cwi')
 keymap("x", "d", '"_d')
@@ -22,3 +23,4 @@ keymap("n", "<leader>=", "<C-W>v", { desc = "Split window right" })
 
 -- leader
 keymap("n", "<leader>t", "<cmd>Translate<cr>", { desc = "Translate" })
+keymap("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>", { desc = "Make it rain" })
